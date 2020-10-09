@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="211" id="KGk-i7-Jjw" customClass="MidCell" customModule="ropstamTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="358" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7pk-rE-Ln4" customClass="UIViewX" customModule="ropstamTest" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="338" height="185"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="shq-6F-iCd">
+                                <rect key="frame" x="10" y="10" width="318" height="165"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="q6v-US-mLk">
+                                        <rect key="frame" x="0.0" y="0.0" width="318" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoH-cZ-Ad5">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="7rG-iH-dcA"/>
+                                                </constraints>
+                                                <state key="normal" image="bed_room"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmT-7o-zFh">
+                                                <rect key="frame" x="112.5" y="0.0" width="93" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="6yO-6m-X4w"/>
+                                                </constraints>
+                                                <state key="normal" image="room"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25f-kv-jEp">
+                                                <rect key="frame" x="225.5" y="0.0" width="92.5" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="SEc-O2-L08"/>
+                                                </constraints>
+                                                <state key="normal" image="camera"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="frm-z0-hVU">
+                                        <rect key="frame" x="0.0" y="85" width="318" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uma-yC-1Wn">
+                                                <rect key="frame" x="0.0" y="0.0" width="92.5" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="mpe-NR-5bA"/>
+                                                </constraints>
+                                                <state key="normal" image="application"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecu-NA-Def">
+                                                <rect key="frame" x="112.5" y="0.0" width="93" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="K3b-jI-bSd"/>
+                                                </constraints>
+                                                <state key="normal" image="storage"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evK-71-y5x">
+                                                <rect key="frame" x="225.5" y="0.0" width="92.5" height="80"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="Shw-Sk-Pa0"/>
+                                                </constraints>
+                                                <state key="normal" image="packge"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="shq-6F-iCd" firstAttribute="top" secondItem="7pk-rE-Ln4" secondAttribute="top" constant="10" id="2Oe-aC-xcl"/>
+                            <constraint firstItem="shq-6F-iCd" firstAttribute="leading" secondItem="7pk-rE-Ln4" secondAttribute="leading" constant="10" id="TQi-Jq-Vs2"/>
+                            <constraint firstAttribute="trailing" secondItem="shq-6F-iCd" secondAttribute="trailing" constant="10" id="ZoY-q3-gcv"/>
+                            <constraint firstAttribute="bottom" secondItem="shq-6F-iCd" secondAttribute="bottom" constant="10" id="nyt-GE-nIu"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.25123137239999999" green="0.30303052069999997" blue="0.66383278369999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="7pk-rE-Ln4" secondAttribute="trailing" constant="10" id="CQ4-lv-616"/>
+                    <constraint firstItem="7pk-rE-Ln4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="IVX-qX-QTl"/>
+                    <constraint firstItem="7pk-rE-Ln4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="LV6-LC-b8l"/>
+                    <constraint firstAttribute="bottom" secondItem="7pk-rE-Ln4" secondAttribute="bottom" constant="10" id="pk9-Rf-az6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="191.30434782608697" y="68.638392857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="application" width="102" height="88"/>
+        <image name="bed_room" width="84" height="66"/>
+        <image name="camera" width="117" height="75"/>
+        <image name="packge" width="78" height="83"/>
+        <image name="room" width="101" height="65"/>
+        <image name="storage" width="80" height="81"/>
+    </resources>
+</document>
